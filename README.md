@@ -1,7 +1,12 @@
 # React Clicky Game <!-- omit in toc --> 
 
+- [Introduction](#introduction)
 - [Notes & Reeferences](#notes--reeferences)
   - [Deploy on Github Pages](#deploy-on-github-pages)
+
+# Introduction
+
+[Live Site](https://seiji13r.github.io/2018bootcamp15reactclickygame/)
 
 # Notes & Reeferences
 

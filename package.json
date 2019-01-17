@@ -2,6 +2,7 @@
   "name": "2018bootcamp15reactclickygame",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://seiji13r.github.io/2018bootcamp15reactclickygame/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.7.0",
@@ -12,6 +13,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
