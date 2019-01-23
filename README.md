@@ -10,6 +10,26 @@
 
 # Notes & Reeferences
 
+```css
+.shake {
+    -webkit-animation: shake .5s .0125s;
+    animation: shake .5s .0125s;
+}
+
+.click-item {
+    background-size: cover;
+    background-position: 50%;
+    height: 170px;
+    width: 170px;
+    margin: 8px 25px;
+    border: 5px solid #f1f1f1;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+    cursor: pointer;
+}
+```
+
 ## Deploy on Github Pages
 ```bash
 # Install gh-pages
