@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/2018bootcamp15reactclickygame/static/css/main.9ee313c2.chunk.css"
   },
   {
-    "revision": "997a892f5f87d234d6c798dcdd6937e9",
+    "revision": "d93f0c1dfd8fb484de2331833b0a0516",
     "url": "/2018bootcamp15reactclickygame/index.html"
   }
 ];
