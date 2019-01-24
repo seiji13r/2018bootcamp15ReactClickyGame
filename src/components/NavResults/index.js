@@ -22,12 +22,12 @@ function NavResult({messages, msgCode, currScore, maxScore}) {
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
             <div className="navbar-text mr-1">
-              <strong>Current Score:</strong> {currScore}
+              <strong>Score:</strong> {currScore}
             </div>
           </li>
           <li className="nav-item">
             <div className="navbar-text">
-              <strong>Max Score:</strong> {maxScore}
+              <strong>Top Score:</strong> {maxScore}
             </div>
           </li>
         </ul>

@@ -59,7 +59,7 @@ characters = characters.map((ch, idx ) => {
 const navMessages = [
   {
     id: 0,
-    msg: "Click on any Image to Start"
+    msg: "Click an image to begin!"
   },
   {
     id: 1,
