@@ -24,7 +24,7 @@ class App extends Component {
   
 
   componentDidMount() {
-    // Shuffle Array of Characters
+    // Shuffle Array of Characters using sort.
     this.setState({
       characters: this.state.characters.sort((a,b) => 0.5 - Math.random())
     })
@@ -32,13 +32,10 @@ class App extends Component {
 
   cardClick = (id) => {
     console.log(id);
-    // Shuffle Array of Characters
-    this.setState({
-      characters: this.state.characters.sort((a,b) => 0.5 - Math.random())
-    })
+    // console.log(event.target);
 
     // Check if image has been clicked before
-    if (!(id in this.state.guessedIds)) {
+    if (!(this.state.guessedIds.includes(id))) {
       // Set A local current Score
       const currentScore = this.state.currScore + 1;
       const maxScore = this.state.maxScore;
@@ -60,6 +57,10 @@ class App extends Component {
       });
     }
 
+    // Shuffle Array of Characters
+    this.setState({
+      characters: this.state.characters.sort((a,b) => 0.5 - Math.random())
+    })
   }
 
   render() {
@@ -74,8 +75,10 @@ class App extends Component {
         />
         <Header />
         <GameBoard 
-          characters={this.state.characters} 
+          characters={this.state.characters}
           cardClick={this.cardClick}
+          currScore={this.state.currScore}
+          maxScore={this.state.maxScore}
         />
       </div>
     );

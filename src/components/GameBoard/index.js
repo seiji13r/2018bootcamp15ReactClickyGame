@@ -18,6 +18,8 @@ function GameBoard(props) {
             name={character.name}
             image={character.image}
             cardClick={()=>props.cardClick(character.id)}
+            maxScore={props.maxScore}
+            currScore={props.currScore}
           />
         ))}
 
