@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/2018bootcamp15reactclickygame/precache-manifest.b804352ea86b7335585f84528641f983.js"
+  "/2018bootcamp15reactclickygame/precache-manifest.ea2ebd0099a0a9a02ada9bc7f7935f80.js"
 );
 
 workbox.clientsClaim();
