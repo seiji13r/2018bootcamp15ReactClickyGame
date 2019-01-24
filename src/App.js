@@ -3,6 +3,7 @@ import { characters, navMessages } from './data'
 import NavResults from "./components/NavResults";
 import Header from "./components/Header";
 import GameBoard from "./components/GameBoard";
+import "./App.css";
 
 class App extends Component {
 

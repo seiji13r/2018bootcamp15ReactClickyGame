@@ -1,51 +1,51 @@
 let characters = [
   {
     name: "Dilbert",
-    image: "imageDilbert"
+    image: "./img/Dilbert-Pin.jpg"
   },
   {
     name: "Alice",
-    image: "imageAlice"
+    image: "./img/Alice.png"
   },
   {
     name: "Dogbert",
-    image: "image"
+    image: "./img/Dogbert1.jpg"
   },
   {
     name: "Catbert",
-    image: "image"
+    image: "./img/Catbert1.png"
   },
   {
     name: "Ratbert",
-    image: "image"
+    image: "./img/Ratbert.png"
   },
   {
     name: "Loud Howard",
-    image: "image"
+    image: "./img/Loud_Howard_1.jpg"
   },
   {
     name: "Wally",
-    image: "image"
+    image: "./img/Wally.png"
   },
   {
     name: "Pointy-Haired Boss",
-    image: "image"
+    image: "./img/Boss.png"
   },
   {
-    name: "Ashok",
-    image: "image"
+    name: "Asok",
+    image: "./img/ASOK.jpeg"
   },
   {
     name: "Dilbert's Mother",
-    image: "image"
+    image: "./img/Dilmom.jpg"
   },
   {
     name: "Bob the Dinosaur",
-    image: "image"
+    image: "./img/BobTheDinosaur.gif"
   },
   {
     name: "Mister Garbage Man",
-    image: "image"
+    image: "./img/Garbageman.jpg"
   }
 ]
 

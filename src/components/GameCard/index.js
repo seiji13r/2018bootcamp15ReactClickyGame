@@ -1,9 +1,12 @@
 import React from "react";
+import './style.css';
 
 function GameCard(props) {
   return (
-    <div onClick={props.cardClick}>
-      GameCard - {props.name} - {props.image}
+    <div className="col-3">
+      <div className="game-card-img-wrapper" onClick={props.cardClick}>
+        <img src={props.image} alt={props.name}/>
+      </div>
     </div>
   );
 }

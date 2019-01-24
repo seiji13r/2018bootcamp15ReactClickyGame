@@ -1,18 +1,27 @@
 import React from "react";
-import GameCard from "../GameCard"
+import GameCard from "../GameCard";
+import './style.css';
 
 function GameBoard(props) {
   return (
     <div className="container">
-      <div>GameBoard</div>
-      {props.characters.map(character => (
-        <GameCard 
-          key={character.id} 
-          id={character.id} 
-          name={character.name} 
-          cardClick={()=>props.cardClick(character.id)}
-        />
-      ))}
+
+      <div className="row">
+        <div>GameBoard</div>
+      </div>
+
+      <div className="row">
+        {props.characters.map(character => (
+          <GameCard 
+            key={character.id} 
+            id={character.id} 
+            name={character.name}
+            image={character.image}
+            cardClick={()=>props.cardClick(character.id)}
+          />
+        ))}
+
+      </div>
     </div>
   );
 }

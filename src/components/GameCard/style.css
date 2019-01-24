@@ -1,0 +1,15 @@
+.game-card-img-wrapper {
+    margin: 5px;
+    border: 2px solid darkgray;
+    padding: 5px;
+}
+
+.game-card-img-wrapper img {
+    /*  */
+    object-fit: cover; /* Do not scale the image and make it cover all spaces*/
+    object-position: center; /* Center the image within the element */
+    width: 100%;
+    /* Fix the hight proportionally to the ViewPort or Fix It */
+    height: 25vh;
+    /* height: 200px; */
+}
