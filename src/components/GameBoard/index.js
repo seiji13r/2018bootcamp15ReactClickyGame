@@ -4,11 +4,7 @@ import './style.css';
 
 function GameBoard(props) {
   return (
-    <div className="container">
-
-      <div className="row">
-        <div>GameBoard</div>
-      </div>
+    <div className="container mb-xs-1 mb-sm-2">
 
       <div className="row">
         {props.characters.map(character => (

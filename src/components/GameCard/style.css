@@ -37,6 +37,16 @@
     -webkit-animation: shake .5s .0125s;
     animation: shake .5s .0125s;
 }
+
+.game-card-img-wrapper:hover {
+    border-radius: 3px;
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+    box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .1s;
+}
+
 /* 
 .game-card-img-wrapper:hover {
     background-size: cover;

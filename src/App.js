@@ -31,25 +31,28 @@ class App extends Component {
   }
 
   cardClick = (id) => {
-    console.log(id);
-    // console.log(event.target);
+
+    // Set A local current Score It will loop every 12 Steps
+    const currentScore = this.state.currScore < 12 ?
+      this.state.currScore + 1 : 1;
 
     // Check if image has been clicked before
     if (!(this.state.guessedIds.includes(id))) {
-      // Set A local current Score
-      const currentScore = this.state.currScore + 1;
+      
       const maxScore = this.state.maxScore;
       // If the Image has not been clicked before:
       // Add the id to the guessed ids.
       // Set the Motivation Message if score < 12 otherwise set it to win message.
       // Increment the Current Score by one.
       this.setState({
-        guessedIds: [...this.state.guessedIds, id],
+        guessedIds: currentScore < 12 ? [...this.state.guessedIds, id] : [],
         navMsgCode: currentScore < 12 ? 2 : 3,
         currScore: currentScore,
         maxScore: currentScore >= maxScore ? currentScore : maxScore
       });
     } else {
+      // If the Image has been clicked before:
+      // Set all values to initial
       this.setState({
         guessedIds: [],
         navMsgCode: 1,
@@ -66,7 +69,6 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <div>Hello Clicky Game</div>
         <NavResults
           messages={this.state.navMsgs}
           msgCode={this.state.navMsgCode}
