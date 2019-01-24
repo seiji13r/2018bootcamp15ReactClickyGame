@@ -13,11 +13,11 @@ let characters = [
   },
   {
     name: "Catbert",
-    image: "./img/Catbert1.png"
+    image: "./img/Catbert3.jpg"
   },
   {
     name: "Ratbert",
-    image: "./img/Ratbert.png"
+    image: "./img/Ratbert3.jpg"
   },
   {
     name: "Loud Howard",
