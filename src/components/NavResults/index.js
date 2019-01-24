@@ -8,14 +8,8 @@ function NavResult({messages, msgCode, currScore, maxScore}) {
           href="https://seiji13r.github.io/2018bootcamp15reactclickygame/"
           className="navbar-brand"
         >
-          Clicky Game
+          Dilbert's <br/> Clicky Game
         </a>
-
-        {/* 
-        <div className="navbar-text text-center mx-auto">
-          <h5 className="d-xs-none d-md-block">{messages[msgCode].msg}</h5>
-        </div> 
-        */}
 
         <span className="navbar-text text-center mx-auto d-none d-sm-block">{messages[msgCode].msg}</span>
 

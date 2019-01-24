@@ -71,7 +71,7 @@ const navMessages = [
   },
   {
     id: 3,
-    msg: "You Win"
+    msg: "You Win!!  Click an image to restart!"
   },
 ]
 
